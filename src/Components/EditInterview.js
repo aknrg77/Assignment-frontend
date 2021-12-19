@@ -14,7 +14,7 @@ export class EditInterview extends Component {
   }
   async componentDidMount() {
     let uid = String(window.location.href).replace(
-      "https://interview-backend1.herokuapp.com/edit/",
+      "https://interview-portal-1.herokuapp.com/edit/",
       ""
     );
 
